@@ -18,7 +18,7 @@ int main()
 		cout << *(ptr_arr_1 + i) << " ";
 	}
 
-	cout << "\tМасив №2: " << *ptr_arr_2;
+	cout << "\tМасив №2: ";
 	for (int i = 0; i < sizeof(arr_2) / sizeof(arr_2[0]); i++)
 	{
 		cout << *(ptr_arr_2 + i) << " ";
@@ -36,7 +36,7 @@ int main()
 		cout << *(ptr_arr_1 + i) << " ";
 	}
 
-	cout << "\tМасив №2: " << *ptr_arr_2;
+	cout << "\tМасив №2: ";
 	for (int i = 0; i < sizeof(arr_2) / sizeof(arr_2[0]); i++)
 	{
 		cout << *(ptr_arr_2 + i) << " ";
